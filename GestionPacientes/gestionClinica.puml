@@ -1,0 +1,23 @@
+@startuml
+annotation java.lang.Override
+class gestionpacientes.Cita
+class gestionpacientes.Clinica
+class gestionpacientes.Entrada
+class gestionpacientes.GestionPacientes
+class gestionpacientes.Ilc
+class gestionpacientes.Medico
+class gestionpacientes.Paciente
+class gestionpacientes.Persona
+class java.util.Date
+class java.util.Scanner
+gestionpacientes.Cita ..> java.util.Date
+gestionpacientes.Clinica ..> java.lang.Override
+gestionpacientes.Entrada ..> java.util.Scanner
+gestionpacientes.Ilc ..> gestionpacientes.Entrada
+gestionpacientes.Ilc ..> java.util.Scanner
+gestionpacientes.Medico ..> java.lang.Override
+gestionpacientes.Medico --|> gestionpacientes.Persona
+gestionpacientes.Paciente ..> java.lang.Override
+gestionpacientes.Paciente --|> gestionpacientes.Persona
+gestionpacientes.Persona ..> java.lang.Override
+@enduml

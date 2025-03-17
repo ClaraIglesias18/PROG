@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"ejercicio114","l":"Cliente"},{"p":"ejercicio114","l":"Ejercicio114"},{"p":"ejercicio114","l":"OutOfRangeException"},{"p":"ejercicio114","l":"Cliente.Sexo"}]
