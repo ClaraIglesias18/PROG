@@ -1,0 +1,13 @@
+# Archivos de configuración de IntelliJ
+.idea/
+*.iml
+
+# Archivos de configuración de VS Code
+.vscode/
+*.code-workspace
+
+# Carpetas de compilación
+out/
+bin/
+build/
+target/

@@ -44,20 +44,18 @@ public class Banco {
     
     public static void main(String[] args) {
         // TODO code application logic here
+
+        //int op = 0;
         
-        int op = 0;
+        pruebaCliente();
+        pruebaCuenta();
         
-        Cliente [] clientes = new Cliente[25];
-        int ncliente = 0, ncuenta = 0;
-        Cuenta [] cuentas = new Cuenta[25];
-        
-        while (op != 5) {
+        /** while (op != 5) {
                 
             Menu.mostrar();
             op = Menu.leer.nextInt();
             Menu.leer.nextLine();
             switch (op) {
-            
                 case 1:
                     
                     if (ncliente < 25) {
@@ -75,14 +73,7 @@ public class Banco {
                         ++ncuenta;
                     }
                     break;
-            
-            
             }
-            
-        }
-        
-        
-        
+        }*/
     }
-    
 }
